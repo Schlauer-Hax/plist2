@@ -1,5 +1,5 @@
-import { jsonParse } from './lib'
-import { changeYamlIndentOnString } from './lib'
+import { jsonParse } from './lib.ts'
+import { changeYamlIndentOnString } from './lib.ts'
 import { stringify as yamlStringify } from 'yaml'
 
 export default (source: string, indent: number | string = 2): any =>

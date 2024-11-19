@@ -1,8 +1,8 @@
 /* eslint-disable security/detect-unsafe-regex */
 
-import { __EMPTY__, __COMMENTS_KEY__, __TRUE__, __FALSE__ } from './lib'
-import { keys, setComments, jsonStringify, jsonParse } from './lib'
-import { REG_CRLF, regexp } from './lib'
+import { __EMPTY__, __COMMENTS_KEY__, __TRUE__, __FALSE__ } from './lib.ts'
+import { keys, setComments, jsonStringify, jsonParse } from './lib.ts'
+import { REG_CRLF, regexp } from './lib.ts'
 
 // /^['"](?:\s*[\r\n\u2028\u2029]\s*)?|\\\s*[\r\n\u2028\u2029]\s*|(?:\s*[\r\n\u2028\u2029]\s*)?['"]$/g
 // prettier-ignore

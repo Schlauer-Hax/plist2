@@ -1,4 +1,4 @@
-import { changeYamlIndentOnString } from './lib'
+import { changeYamlIndentOnString } from './lib.ts'
 import { stringify as yamlStringify } from 'yaml'
 
 export default (source: any, indent: number | string = 2): string =>

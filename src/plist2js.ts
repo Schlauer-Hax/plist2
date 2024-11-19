@@ -36,7 +36,7 @@ import {
   __FALSE__,
   __COMMENTS_KEY__,
   __BINARY64_KEY__
-} from './lib'
+} from './lib.ts'
 
 import {
   keys,
@@ -46,7 +46,7 @@ import {
   isArray,
   createArray,
   createObject
-} from './lib'
+} from './lib.ts'
 
 // /^\s*[\r\n\u2028\u2029]\s*|\s*[\r\n\u2028\u2029]\s*$/g
 const reg1 = regexp(['^\\s*', REG_CRLF, '\\s*|\\s*', REG_CRLF, '\\s*$'], 'g')

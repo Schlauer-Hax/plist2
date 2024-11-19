@@ -15,7 +15,7 @@ import {
   __DATA__,
   __COMMENTS_KEY__,
   __BINARY64_KEY__
-} from './lib'
+} from './lib.ts'
 
 const normalizeString = (value: any): string =>
   (__EMPTY__ + value).trim().replace(/</g, '&lt;').replace(/>/g, '&gt;')

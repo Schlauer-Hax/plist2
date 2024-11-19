@@ -8,7 +8,7 @@ import {
   __EMPTY__,
   __COMMENTS_KEY__,
   __BINARY64_KEY__
-} from './lib'
+} from './lib.ts'
 
 const NEW_LINE = '\n'
 

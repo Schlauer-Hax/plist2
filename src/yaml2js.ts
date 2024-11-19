@@ -1,5 +1,5 @@
 import { parseDocument as yamlParseDocument } from 'yaml'
-import { __BINARY64_KEY__ } from './lib'
+import { __BINARY64_KEY__ } from './lib.ts'
 
 const scanItems = (items?: any[]): void => {
   if (items) {
